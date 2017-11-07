@@ -43,7 +43,6 @@ GEM
     arel (7.1.4)
     bindex (0.5.0)
     builder (3.2.3)
-    byebug (9.1.0)
     capistrano (3.10.0)
       airbrussh (>= 1.0.0)
       i18n
@@ -112,6 +111,7 @@ GEM
     nio4r (2.1.0)
     nokogiri (1.8.1)
       mini_portile2 (~> 2.3.0)
+    pg (0.21.0)
     puma (3.10.0)
     rack (2.0.3)
     rack-test (0.6.3)
@@ -193,7 +193,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  byebug
   capistrano (~> 3.7, >= 3.7.1)
   capistrano-passenger (~> 0.2.0)
   capistrano-rails (~> 1.2)
@@ -205,6 +204,7 @@ DEPENDENCIES
   jbuilder (~> 2.5)
   jquery-rails
   listen (~> 3.0.5)
+  pg
   puma (~> 3.0)
   rails (~> 5.0.2)
   sass-rails (~> 5.0)

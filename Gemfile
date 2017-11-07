@@ -15,10 +15,6 @@ gem 'jquery-rails'
 gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
 
-group :development, :test do
-  gem 'byebug', platform: :mri
-end
-
 group :development do
   gem 'web-console', '>= 3.3.0'
   gem 'listen', '~> 3.0.5'
@@ -31,6 +27,10 @@ group :development do
   gem 'capistrano3-puma'
   gem 'capistrano3-nginx'
   gem 'capistrano-upload-config'
+end
+
+group :production do
+  gem 'pg'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
