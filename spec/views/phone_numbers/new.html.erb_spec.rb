@@ -3,8 +3,8 @@ require 'rails_helper'
 RSpec.describe "phone_numbers/new", type: :view do
   before(:each) do
     assign(:phone_number, PhoneNumber.new(
-      :number => "MyString",
-      :person_id => 1
+      number: "MyString",
+      person_id: 1
     ))
   end
 
